@@ -1,0 +1,91 @@
+#top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+nav {
+    justify-content : right;
+}
+
+#company-stuff{
+    display: flex;
+}
+
+#company-text{
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+content header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+content header div {
+    justify-content: left;
+}
+
+content header p {
+    justify-content: right;
+}
+
+h3 {
+    font-size: 16px;
+    color: rgba(168, 168, 168, 0.747);
+}
+
+content {
+    display: grid;
+    justify-items: center;
+}
+
+ul {
+    background-image: url(./lab-assets/list-bg.png);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+input:checked {
+    text-decoration: line-through;
+}
+
+button {
+    background-color: #bc7058;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 130px;
+
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about img {
+    grid-column: 1;
+}
+
+#about button {
+    grid-column: 3;
+}
+ #about #name {
+     font-size: 20px;
+     font-weight: 700;
+ }
+
+ footer {
+     text-align: center;
+ }
